@@ -1,13 +1,15 @@
-import React from 'react';
-import './App.css';
-import PathfinderVisualizer from './PathfinderVisualizer/PathfinderVisualizer';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header/Header";
+import PathfinderVisualizer from "./components/PathfinderVisualizer/PathfinderVisualizer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+      <Header />
       <PathfinderVisualizer />
     </div>
   );
-}
+};
 
 export default App;
